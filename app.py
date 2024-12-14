@@ -10,7 +10,7 @@ st.write(data)
 
 st.header("Atividade Física vs. Duração do Sono")
 plt.figure(figsize=(10, 5))
-plt.scatter(data['PhysicalActivity'], data['Sleep_duration'], alpha=0.6)
+plt.scatter(data['PhysicalActivity'], data['Sleep_Duration'], alpha=0.6)
 plt.title("Atividade Física vs Sono")
 plt.xlabel("Nível de Atividade Física")
 plt.ylabel("Horas de Sono")
