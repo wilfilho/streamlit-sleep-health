@@ -10,7 +10,7 @@ st.write(data)
 
 st.header("Distribuição das Horas de Sono")
 plt.figure(figsize=(10, 5))
-plt.hist(data['Sleep duration'], bins=20, alpha=0.7, edgecolor='black')
+plt.hist(data['Sleep_Duration'], bins=20, alpha=0.7, edgecolor='black')
 plt.title("Distribuição de Duração do Sono")
 plt.xlabel("Horas de Sono")
 plt.ylabel("Frequência")
